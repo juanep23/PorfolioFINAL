@@ -1,0 +1,63 @@
+
+.nome h1, h3 {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.picture {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.picture img {
+    border-radius: 50%;
+}
+
+.corpo h3 {
+    padding-top: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.corpo p {
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.aboutme {
+    padding: 0px 10px 0px 10px;
+    background-color: teal;
+    color: antiquewhite;
+    height: 280px;
+}
+
+
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0px;
+    border: 2px solid teal;
+    justify-content: space-evenly;
+}
+#contact {
+    background-color: teal;
+    color: antiquewhite;
+}
+
+.contact img {
+    width: 50px;
+    height: 50px;
+    padding-top: 0px;
+}
+
+
