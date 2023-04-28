@@ -10,6 +10,7 @@ h3 {
   display: flex;
   justify-content: center;
   height: 250px;
+  width: 250px;
 }
 
 .picture img {
