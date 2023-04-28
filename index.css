@@ -1,113 +1,111 @@
-
-.nome h1, h3 {
-    text-align: center;
-    margin-top: 1px;
-    margin-bottom: 2px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.nome h1,
+h3 {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 .picture {
-    display: flex;
-    justify-content: center;
-    height: 250px;
+  display: flex;
+  justify-content: center;
+  height: 250px;
 }
 
 .picture img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .corpo h3 {
-    padding-top: 5px;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: xx-large;
+  padding-top: 5px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: xx-large;
 }
 
 .corpo p {
-    margin-top: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
-
 
 .aboutme {
-    padding: 0px 10px 0px 10px;
-    background-color: teal;
-    color: antiquewhite;
-    height: 280px;
+  padding: 0px 10px 0px 10px;
+  background-color: teal;
+  color: antiquewhite;
+  height: 280px;
 }
-
-
-
 
 .contact {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-top: 0px;
-    border: 2px solid teal;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 0px;
+  border: 2px solid teal;
+  justify-content: space-evenly;
 }
 #contact {
-    background-color: teal;
-    color: antiquewhite;
+  background-color: teal;
+  color: antiquewhite;
 }
 
 .contact img {
-    width: 50px;
-    height: 50px;
-    padding-top: 0px;
+  width: 50px;
+  height: 50px;
+  padding-top: 0px;
 }
 
 @media screen and (min-width: 1200px) {
-    
-    body {
-        display: flex;
-        flex-direction: column;
-    }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .nome {
-        margin-top: 70px;
-        margin-bottom: 0px;
-        font-size: 1.4em;
-    }
+  .nome {
+    margin-top: 8%;
+    margin-bottom: 0px;
+    font-size: 1.4em;
+  }
 
-    .corpo {
-        display: flex;
-        margin-top: 20px;
-    }
+  .corpo {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .desktop {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .aboutme {
-        width: 500px;
-        height: 300px;
-        margin: 20px 0px 20px 20px;
-    }
+  .desktop {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .aboutme {
+    width: 500px;
+    height: 300px;
+    margin: 20px 0px 20px 20px;
+  }
 
-    .picture {
-        margin: 10px;
-        border: 1px solid teal;
-        border-radius: 50%;
-    }
+  .picture {
+    margin: 10px;
+    border: 1px solid teal;
+    border-radius: 50%;
+  }
 
-    .details {
-        width: 500px;
-        height: 300px;
-        margin: 20px 20px 20px 0px;
-        border: 2px solid teal;
-    }
+  .details {
+    width: 500px;
+    height: 300px;
+    margin: 20px 20px 20px 0px;
+    border: 2px solid teal;
+  }
 
-    .contact {
-        display: flex;
-        border: 0px;
-    }
+  .contact {
+    display: flex;
+    border: 0px;
+  }
 
-    .contactimages img {
-        width: 50px;
-        height: 50px;
-    }
+  .contactimages img {
+    width: 50px;
+    height: 50px;
+  }
 }
